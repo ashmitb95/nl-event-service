@@ -80,3 +80,4 @@ function generateEventId() {
     return `event_${Date.now().toString()}`;
 }
 exports.default = router;
+//# sourceMappingURL=routes.js.map
