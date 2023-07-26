@@ -18,5 +18,10 @@ TO GET STARTED
 4. Run `node dist/server.js` to start server at port 3000
 5. Import the collection provided "Event Management Service.postman_collection.json" and try out the api
 
-Creating this repo took about 40 minutes. I have spent another 40 trying to figure out why vercel wont serve the files I want it to.
-Explored a few vercel.json settings, however the issue mainly happens to be trying to serve a REST API where vercel is expecting to serve HTML pages instead and cannot find anything at the root of the hosted files.
+APIS
+
+GET /events -- returns a list of available events
+GET /events/:event_id -- returns an event by ID or error
+POST /events -- adds a new Event
+PUT /events/:event_id -- updates an existing Event by ID
+DELETE /events - deletes an existing Event
