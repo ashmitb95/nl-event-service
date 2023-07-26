@@ -15,7 +15,7 @@ TO GET STARTED
 1. Clone the repository and open a new terminal
 2. Install all dependencies with with `npm install`
 3. Run `npx tsc` to transpile code into js.
-4. Run `node dist/server.js` to start server at port 3000
+4. Run `npm start` to start server at port 3000
 5. Import the collection provided "Event Management Service.postman_collection.json" and try out the api. The collection is wired to localhost. If using the collection against the deployed test URL, replace `localhost` with `DEPLOYED_URL` provided below
 
 DEPLOYED URL: https://nl-event-service.vercel.app/
